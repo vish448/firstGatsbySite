@@ -11,6 +11,8 @@ const IndexPage = () => (
     <p>Link to my <a href="https://github.com/vish448" target="_blank">Github Repo</a></p>
     <Link to="/page-2/">Go to page 2</Link><br/>
     <Link to="/counter/">Counter Page</Link>
+    <Link to="/about/">About Me</Link>
+
   </div>
 )
 

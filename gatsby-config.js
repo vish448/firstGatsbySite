@@ -1,6 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'Vishang Soni',
   },
-  plugins: ['gatsby-plugin-react-helmet','gatsby-plugin-typography'],
-}
+  plugins: [
+    {
+      resolve:'gatsby-plugin-typography',
+      options:{
+        pathToConfigModule: 'src/utils/typography.js'
+      },
+    },
+    //'gatsby-plugin-react-helmet','gatsby-plugin-typography'
+  ],
+};
